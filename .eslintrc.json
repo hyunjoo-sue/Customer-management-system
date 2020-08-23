@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "node": true,
+        "jquery": true
+    },
+    "extends": [
+        "google"
+    ],
+    "plugins":["import", "html"],
+    "parserOptions": {
+        "ecmaVersion": 9,
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-console":"warn",
+        "quotes":[
+            "error",
+            "double"
+        ]
+    }
+}
